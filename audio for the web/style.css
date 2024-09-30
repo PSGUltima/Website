@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif; /* Added font for better readability */
+    background-color: #f4f4f4; /* Light background color for better contrast */
+    margin: 0;
+    padding: 20px; /* Added padding around the body */
+}
+
+h1 {
+    text-align: center; /* Centered the main heading */
+    color: #333; /* Darker color for better visibility */
+}
+
+.track {
+    background: white; /* White background for tracks */
+    padding: 15px; /* Padding around track sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Space between tracks */
+}
+
+.slidecontainer {
+    width: 100%; /* Full width for slider container */
+}
+
+.slider {
+    -webkit-appearance: none; /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 8px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency */
+    transition: opacity .2s; /* Smooth transition on hover */
+    border-radius: 5px; /* Rounded slider track */
+}
+
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Handle width */
+    height: 25px; /* Handle height */
+    background: #04AA6D; /* Green background */
+    border-radius: 50%; /* Round slider handle */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Handle width */
+    height: 25px; /* Handle height */
+    background: #04AA6D; /* Green background */
+    border-radius: 50%; /* Round slider handle */
+    cursor: pointer; /* Cursor on hover */
+}
+
+label {
+    display: block; /* Block display for better layout */
+    margin: 10px 0 5px; /* Spacing above and below labels */
+    font-weight: bold; /* Bold labels */
+}
